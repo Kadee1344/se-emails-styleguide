@@ -32,3 +32,12 @@ fractal.web.set('static.path', path.join(__dirname, 'public'));
 
 /* Set the static HTML build destination */
 fractal.web.set('builder.dest', __dirname + '/build');
+
+const mandelbrot = require('@frctl/mandelbrot');
+
+const myCustomisedTheme = mandelbrot({
+    skin: "aqua",
+    panels: ["html", "notes"]
+});
+
+fractal.web.theme(myCustomisedTheme);
