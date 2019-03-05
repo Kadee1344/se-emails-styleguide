@@ -4,7 +4,7 @@
   	"variants": [
 		{
 			"name": "default",
-			"label": "Base",
+			"label": "BlueBase",
 			"context": {
 				"message": "This is a standard notification"
 			},
@@ -12,7 +12,7 @@
 		},
 		{
       "name": "white",
-      "label": "transparent",
+      "label": "Transparent",
       "notes": "These are some **notes** about the component"
     }
 	]
