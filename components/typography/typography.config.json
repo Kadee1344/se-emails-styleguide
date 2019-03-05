@@ -1,18 +1,23 @@
 {
-	"title": "Buttons",
+	"title": "Typography",
 	"context": {},
   	"variants": [
 		{
-			"name": "default",
-			"label": "BlueBase",
+			"name": "text",
+			"label": "Main text",
 			"context": {
 				"message": "This is a standard notification"
 			},
       "notes": "These are some **notes** about the component"
 		},
 		{
-      "name": "white",
-      "label": "Transparent",
+      "name": "headers",
+      "label": "Headers",
+      "notes": "These are some **notes** about the component"
+    },
+    {
+      "name": "link",
+      "label": "Links",
       "notes": "These are some **notes** about the component"
     }
 	]
