@@ -1,7 +1,15 @@
 {
   "name": "streeteasy-email-styleguide",
+  "homepage": "http://kadee1344.github.io/se-emails-styleguide",
   "version": "0.1.0",
   "dependencies": {
-    "@frctl/fractal": "^1.1.7"
+    "@frctl/fractal": "^1.1.7",
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "start": "fractal start --sync",
+    "build": "fractal build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
