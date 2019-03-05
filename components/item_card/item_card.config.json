@@ -1,0 +1,14 @@
+{
+	"title": "Notification Banner",
+	"context": {},
+  	"variants": [
+		{
+			"name": "default",
+			"label": "Base",
+			"context": {
+				"message": "This is a standard notification"
+			},
+      "notes": "These are some **notes** about the component"
+		}
+	]
+}
