@@ -2,4 +2,4 @@
 title: Streeteasy Email Styleguide
 ---
 
-This is your index page. You can edit its contents at `docs/01-index.hbs`
+This is where we will keep and develop all reusable email components for StreetEasy.
